@@ -1,0 +1,104 @@
+body {
+    font-family: 'roboto mono', monospace;
+    color: black;
+    size: 20px;
+}
+
+h1,h2,h3{
+
+}
+
+h2{
+    position: center;
+    margin: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.banner h1{
+    color: blanchedalmond;
+    font-size: 10em;
+    margin-top: 0;
+}
+
+.banner p{
+    color: blanchedalmond;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+/* .btn-red{
+    color: blanchedalmond;
+    background-color: crimson;
+    padding: 20px;
+    font-size: 4em;
+    font-weight: 100;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} */
+
+.btn-red {
+    color: blanchedalmond;
+    background-color: crimson;
+    font-size: 4em;
+    font-weight: 100;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 300px;
+}
+
+.btn-red:hover{
+    color: blanchedalmond;
+    background-color: rgb(241, 9, 9);
+}
+
+.container {
+    width: 900px;
+    margin: 10px auto;
+    display: flex;
+}
+
+.card{
+    gap: 16px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    flex-grow: 1;
+
+}
+
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+
+}
+
+.categorias{
+    display: block;
+    text-align: center;
+    font-size: 2em;
+}
